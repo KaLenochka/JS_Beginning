@@ -1,0 +1,16 @@
+{
+    "userID": 1,
+    "id": 1,
+    "title": "Test title",
+    "status": {
+        "completed": false
+    }
+}
+
+.JSON передается в виде строки:
+
+{"userID":1,"id":1,"title":"Test title","status":{"completed":false}}
+
+JSON.parse() - втроенный метод JS, чтоб распарсить .JSON- файл
+
+JSON.stringify() -чтоб конвертировать .js в .JSON (получим строку)
